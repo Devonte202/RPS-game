@@ -1,0 +1,83 @@
+@font-face {
+  font-family: crackman;
+  src: url(crackman.regular.ttf);
+}
+@font-face {
+  font-family: arcade;
+  src: url(arcadeclassic.regular.ttf);
+}
+@font-face {
+  font-family: pacfont;
+  src: url(pacfont.regular.ttf);
+}
+
+.jumbotron{
+    background-color: #181818;
+    height: 70px;
+}
+
+h1{
+
+    font-size: 70px;
+    font-family: crackman;
+    color: #FF9933;
+    position: relative;
+    bottom: 30px;
+}
+
+#start-text{
+   color: white;
+   font-size: 30px;
+   font-family: arcade;
+}
+
+#start-button{
+    height: 300px;
+    Width: 300px;
+    border-radius: 1000px;
+    background-color: #FF9933 ;
+    box-shadow: 10px 10px 5px ;
+}
+
+#start-button-text{
+    padding-top: 130px;
+    font-family: pacfont;
+    font-size: 40px;
+
+}
+.mode-text{
+    color:black;
+    font-family: arcade;
+}
+
+#render_Box{
+    text-align: center;
+}
+
+#replay{
+  margin-left: 47.5%;
+  text-align: center;
+  border-style: solid;
+}
+
+#play{
+position: relative;
+left: 450px;
+color: white;
+font-size: 20px;
+font-family: arcade;
+width: 10px;
+}
+#comp{
+  position: relative;
+  left: 450px;
+  color: white;
+  font-size: 20px;
+  font-family: arcade;
+  width: 10px;
+}
+
+.mode-subtext{
+  color:black;
+  font-family: arcade;
+}
